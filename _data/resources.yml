@@ -17,11 +17,10 @@
   description: De-identified memory narratives and similarity annotations from two participant groups, with demographic and Survey of Autobiographical Memory (SAM) data. Explores the similarity structure of real-world memories.
   paper: "Tomita, Barense & Honey (2021) bioRxiv"
 
-# Code
 - name: Boosting Theory-of-Mind in LLMs with Prompting
-  type: code
+  type: dataset
   url: https://github.com/shrahimim/Boosting-Theory-of-Mind-in-LLMs-with-Prompting
-  description: Code and data for investigating and improving Theory-of-Mind performance in large language models via prompting strategies.
+  description: Data for investigating and improving Theory-of-Mind performance in large language models via prompting strategies.
   paper: "Rahimi Moghaddam & Honey (2023) arXiv"
 
 - name: iELVis - Intracranial Electrode Visualization
