@@ -1,0 +1,16 @@
+// Hex design elements
+
+// Page title (simple, no banner)
+.page-title {
+    padding: $space-8 0 $space-4;
+
+    h1 {
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+}
+
+// Hexagonal photo mask for people photos
+.hex-photo {
+    clip-path: $hex-clip-path;
+}

@@ -1,0 +1,35 @@
+// Research Section
+
+.research-topic {
+    padding: $space-16 0;
+
+    &.alt {
+        background: $color-background-alt;
+    }
+}
+
+.research-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: $space-12;
+    align-items: start;
+
+    &.reverse {
+        grid-template-columns: 2fr 1fr;
+
+        .research-image {
+            order: 2;
+        }
+    }
+}
+
+.research-image img {
+    max-width: 280px;
+    border-radius: $border-radius-lg;
+    box-shadow: $shadow-md;
+}
+
+.research-text h2 {
+    font-size: $text-2xl;
+    margin-bottom: $space-6;
+}

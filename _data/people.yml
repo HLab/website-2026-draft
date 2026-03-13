@@ -1,0 +1,187 @@
+# Current Lab Members
+- name: Christopher Honey
+  role: Principal Investigator
+  group: pi
+  photo: ChrisHoney_Hex.jpg
+  active: true
+
+- name: Rolando Masis-Obando
+  role: Postdoctoral Research Fellow
+  group: postdoc
+  photo: rolando_masis.png
+  focus: schemas, spatial contexts, memory enhancement, neurofeedback, virtual/augmented reality
+  active: true
+
+- name: Xian Li
+  role: Graduate Student
+  group: grad
+  photo: xian_li.png
+  focus: context storage/retrieval and maintenance in humans & machines
+  website: http://www.xian-li.com
+  active: true
+
+- name: Gabriel Kressin-Palacios
+  role: Graduate Student
+  group: grad
+  photo: gabriel_kressin.png
+  focus: narrative & world representation, learning and memory, neural language models
+  website: https://gabrielkp.com/
+  active: true
+
+- name: Gio Li
+  role: Graduate Student
+  group: grad
+  photo: gio_li.jpg
+  focus: Event and thought representation, neural language models
+  email: zli230@jhu.edu
+  active: true
+
+- name: Flory Huang
+  role: Graduate Student
+  group: grad
+  photo: flory_huang.jpg
+  active: true
+
+- name: Kahlyn Eckles
+  role: Lab Manager
+  group: staff
+  photo: kahlyn_eckles.jpg
+  years: "2023-25"
+  now: Graduate student at the University of Oregon
+  active: false
+
+- name: Clara Kim
+  role: Undergraduate Research Assistant
+  group: undergrad
+  photo: clara_kim.jpg
+  active: true
+
+# Alumni
+- name: Kristijan Armeni
+  role: Postdoctoral Research Fellow
+  group: postdoc
+  years: "2022-25"
+  now:
+  website: https://www.kristijanarmeni.net
+  active: false
+
+- name: Savannah Born
+  role: Lab Manager
+  group: staff
+  years: "2019-23"
+  now: Psychology graduate student at Washington University, St. Louis.
+  active: false
+
+- name: Shima Rahimi Moghaddam
+  role: Postdoctoral Research Fellow
+  group: postdoc
+  years: "2018-23"
+  now: AI Engineer at IBM
+  active: false
+
+- name: Tyler Tomita
+  role: Postdoctoral Research Fellow
+  group: postdoc
+  years: "2018-23"
+  now: Machine learning researcher at the Applied Physics Lab
+  active: false
+
+- name: Joon-Young Moon
+  role: Assistant Research Scientist
+  group: postdoc
+  years: "2017-22"
+  now: "Young Scientist Fellow at Sunkyunkwan University in South Korea"
+  website: https://moonbrainlab.org/
+  active: false
+
+- name: Kevin Himberger
+  role: Graduate Student
+  group: grad
+  years: "2016-21"
+  now: Data Engineer at Justice Innovation Lab.
+  active: false
+
+- name: Hsiang-Yun Sherry Chien
+  role: Graduate Student
+  group: grad
+  years: "2016-21"
+  now: AI Machine Learning Resident at Apple.
+  active: false
+
+- name: Buddhika Bellana
+  role: Postdoctoral Research Fellow
+  group: postdoc
+  years: "2016-20"
+  now: Assistant Professor at York University
+  website: https://www.bellanalab.com/
+  active: false
+
+- name: Zoey Zuo
+  role: Lab Manager
+  group: staff
+  years: "2017-19"
+  now: Clinical psychology graduate student at the University of Toronto Scarborough.
+  active: false
+
+- name: "Kathrin Müsch"
+  role: Postdoctoral Research Fellow
+  group: postdoc
+  years: "2014-18"
+  now: Digital Biomarker Scientist for Roche healthcare, Switzerland.
+  active: false
+
+- name: David Groppe
+  role: Research Associate
+  group: postdoc
+  years: "2014-17"
+  now: Clinical neuroscientist/data scientist at the Krembil Neuroscience Centre.
+  active: false
+
+- name: Helen Liu
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-16"
+  now: Masters student in Translational Science at the University of Toronto.
+  active: false
+
+- name: Mansi Patel
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-15"
+  now: Graduate student in Occupational Therapy at McMaster University.
+  active: false
+
+- name: Saba Shahab
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-15"
+  now: Graduate student at the Institute of Medical Science at the University of Toronto.
+  active: false
+
+- name: Samira Azimi
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-15"
+  now: Graduate student in Neuroscience at York University.
+  active: false
+
+- name: Shahin Khodaei
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-15"
+  now: Graduate student in Physiology at the University of Toronto.
+  active: false
+
+- name: Davide Crombie
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-16"
+  now: Graduate student in Neuroscience at Ludwig Maximillian University, Munich.
+  active: false
+
+- name: Eve Zheng
+  role: Undergraduate Research Assistant
+  group: undergrad
+  years: "2014-16"
+  now: Graduate student in Family Therapy at the University of Southern California.
+  active: false

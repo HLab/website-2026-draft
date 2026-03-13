@@ -1,0 +1,41 @@
+# Related Tools
+- name: "RAVE — Reproducible Analysis and Visualization of iEEG"
+  category: tools
+  url: https://rave.wiki
+  description: Free, open-source software for the analysis of intracranial EEG data, including ECoG and depth electrodes. A modern successor to tools like iELVis.
+  group: "Beauchamp Lab"
+
+# Open Datasets
+- name: "OpenNeuro"
+  category: data
+  url: https://openneuro.org
+  description: A free platform for sharing and accessing neuroimaging datasets (MRI, fMRI, MEG, EEG, iEEG) following BIDS standards. One of the largest open neuroimaging repositories.
+
+- name: "Courtois NeuroMod"
+  category: data
+  url: https://www.cneuromod.ca
+  description: A massive, deeply-sampled dataset featuring extensive fMRI, MEG, and behavioral data from a small number of participants across diverse tasks and naturalistic stimuli.
+
+# Books & Courses
+- name: "Statistical Thinking for the 21st Century"
+  category: learning
+  url: https://statsthinking21.github.io/statsthinking21-core-site/
+  description: Open-source textbook by Russ Poldrack teaching statistics through a modern computational lens, emphasizing simulation and real datasets over traditional formula-based approaches.
+  group: "Poldrack"
+
+- name: "Better Code, Better Science"
+  category: learning
+  url: https://bettercodebetterscience.github.io/book/
+  description: Open book by Russ Poldrack on building better code for science — version control, testing, reproducibility, and AI-assisted coding.
+  group: "Poldrack"
+
+# Community
+- name: "CCNeuro — Conference on Cognitive Computational Neuroscience"
+  category: community
+  url: https://ccneuro.org
+  description: Annual forum for researchers in cognitive science, neuroscience, and AI, dedicated to understanding the computations that underlie complex behavior.
+
+- name: "Neuromatch Academy"
+  category: community
+  url: https://neuromatch.io
+  description: Open, global computational neuroscience summer school offering interactive courses in computational neuroscience, deep learning, and climate science.

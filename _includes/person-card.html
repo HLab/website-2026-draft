@@ -1,0 +1,23 @@
+<article class="person-card">
+    <div class="person-photo">
+        {% if include.person.photo %}
+        <img src="{{ '/assets/images/people/' | append: include.person.photo | relative_url }}" alt="{{ include.person.name }}">
+        {% else %}
+        <div class="person-photo-placeholder"></div>
+        {% endif %}
+    </div>
+    <div class="person-info">
+        <h3>{{ include.person.name }}</h3>
+        <p class="role">{{ include.person.role }}</p>
+        {% if include.person.focus %}
+        <p class="focus"><strong>Focus:</strong> {{ include.person.focus }}</p>
+        {% endif %}
+        {% if include.person.website or include.person.email %}
+        <p class="links">
+            {% if include.person.website %}<a href="{{ include.person.website }}">Website</a>{% endif %}
+            {% if include.person.website and include.person.email %} | {% endif %}
+            {% if include.person.email %}<a href="mailto:{{ include.person.email }}">Email</a>{% endif %}
+        </p>
+        {% endif %}
+    </div>
+</article>

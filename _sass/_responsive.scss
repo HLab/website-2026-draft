@@ -1,0 +1,61 @@
+// Responsive Design
+// Mobile nav is handled in _nav.scss
+
+@media (max-width: $bp-lg) {
+    .research-content,
+    .research-content.reverse {
+        grid-template-columns: 1fr;
+    }
+
+    .research-content.reverse .research-image {
+        order: 0;
+    }
+
+    .research-image {
+        text-align: center;
+
+        img {
+            max-width: 200px;
+            margin: 0 auto;
+        }
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .collaborators-list {
+        column-count: 1;
+    }
+}
+
+@media (max-width: $bp-md) {
+    h1 { font-size: $text-3xl; }
+    h2 { font-size: $text-2xl; }
+    h3 { font-size: $text-xl; }
+
+    .people-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+
+    .alumni-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: $bp-sm) {
+    .container {
+        padding: 0 $space-4;
+    }
+
+    .people-section,
+    .collaborators-section,
+    .alumni-section,
+    .research-topic,
+    .publications-section,
+    .positions-section,
+    .contact-section,
+    .resources-section {
+        padding: $space-10 0;
+    }
+}

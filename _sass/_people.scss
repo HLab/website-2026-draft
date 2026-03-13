@@ -1,0 +1,131 @@
+// People Section
+
+.people-section,
+.collaborators-section,
+.alumni-section {
+    padding: $space-16 0;
+}
+
+.people-section {
+    background: $color-background;
+}
+
+.people-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: $space-6;
+}
+
+.person-card {
+    background: $color-background;
+    border-radius: $border-radius-lg;
+    overflow: hidden;
+    transition: transform $transition, box-shadow $transition;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: $shadow-md;
+    }
+}
+
+.person-photo {
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    background: $color-background-alt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 88%;
+        height: 88%;
+        object-fit: cover;
+        clip-path: $hex-clip-path;
+        margin: auto;
+    }
+}
+
+.person-photo-placeholder {
+    width: 88%;
+    height: 88%;
+    background: $color-border;
+    clip-path: $hex-clip-path;
+}
+
+.person-info {
+    padding: $space-4 $space-4 $space-5;
+    text-align: center;
+
+    h3 {
+        font-size: $text-base;
+        font-weight: 600;
+        margin-bottom: $space-1;
+    }
+
+    .role {
+        color: $color-accent;
+        font-weight: 500;
+        font-size: $text-sm;
+        margin-bottom: $space-2;
+    }
+
+    .focus {
+        font-size: $text-sm;
+        color: $color-text-light;
+        margin-bottom: $space-2;
+    }
+
+    .links {
+        font-size: $text-sm;
+        margin-bottom: 0;
+    }
+}
+
+// Collaborators
+.collaborators-section {
+    border-top: 1px solid $color-border;
+
+    h2 {
+        margin-bottom: $space-6;
+    }
+}
+
+.collaborators-list {
+    column-count: 2;
+    column-gap: $space-8;
+    list-style: none;
+    padding: 0;
+
+    li {
+        padding: $space-2 0;
+        break-inside: avoid;
+    }
+}
+
+// Alumni
+.alumni-section {
+    border-top: 1px solid $color-border;
+
+    h2 {
+        margin-bottom: $space-6;
+    }
+}
+
+.alumni-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: $space-4;
+}
+
+.alumni-item {
+    padding: $space-4;
+    background: $color-background-alt;
+    border-radius: $border-radius;
+    font-size: $text-sm;
+    line-height: 1.6;
+
+    strong {
+        color: $color-primary;
+    }
+}
