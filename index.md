@@ -22,7 +22,7 @@ title: null
 
 <div class="section">
   <h2><img src="{{ '/assets/images/landing/noun-books-8090125.svg' | relative_url }}" class="section-icon" alt="">Publications</h2>
-  <p>We publish our work in broad-interest outlets as well as specialist journals in cognitive science, neuroimaging, and machine learning. We strive to make everything publicly available.</p>
+  <p>We publish in broad-interest outlets as well as specialist journals in cognitive science, neuroimaging, and machine learning. We strive to make everything publicly available.</p>
   <p><a href="{{ '/publications/' | relative_url }}">Browse papers &rarr;</a></p>
 </div>
 

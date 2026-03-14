@@ -6,7 +6,7 @@ description: Honey Lab resources - datasets, code, and tools from our research
 
 <section class="resources-section">
     <div class="container">
-        <p>Datasets, code, and tools from our research.</p>
+        <p>Datasets and tools from our research.</p>
 
         {% assign datasets = site.data.resources | where: "type", "dataset" %}
         {% if datasets.size > 0 %}

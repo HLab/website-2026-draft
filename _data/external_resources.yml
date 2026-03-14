@@ -35,7 +35,12 @@
   url: https://ccneuro.org
   description: Annual forum for researchers in cognitive science, neuroscience, and AI, dedicated to understanding the computations that underlie complex behavior.
 
-- name: "Neuromatch Academy"
-  category: community
-  url: https://neuromatch.io
-  description: Open, global computational neuroscience summer school offering interactive courses in computational neuroscience, deep learning, and climate science.
+- name: "Neuromatch — Computational Neuroscience"
+  category: learning
+  url: https://compneuro.neuromatch.io/tutorials/intro.html
+  description: Open coursebook from the Neuromatch Academy covering computational neuroscience fundamentals.
+
+- name: "Neuromatch — NeuroAI"
+  category: learning
+  url: https://neuroai.neuromatch.io/tutorials/intro.html
+  description: Open coursebook from the Neuromatch Academy on the intersection of neuroscience and artificial intelligence.

@@ -125,7 +125,7 @@
     url: https://elifesciences.org/articles/75027
   - text: PDF
     url: pdfs/dima_etal_preprint_2021.pdf
-- authors: Himberger KD, Finn HY, Honey CJ
+- authors: Himberger KD, Finn A, Honey CJ
   year: '2019'
   status: preprint
   title: On the Automaticity of Visual Statistical Learning
@@ -232,6 +232,17 @@
     url: https://www.ncbi.nlm.nih.gov/pubmed/31239438
   - text: PDF
     url: https://www.nature.com/articles/s41597-019-0105-7.pdf
+- authors: Davidesco I, Thesen T, Honey CJ, Melloni L, Doyle W, Devinsky O, Ghitza O, Schroeder C, Poeppel D, Hasson U
+  year: '2018'
+  status: preprint
+  title: Electrocorticographic responses to time-compressed speech vary across the cortical auditory hierarchy
+  journal: bioRxiv
+  volume: '354464'
+  links:
+  - text: bioRxiv
+    url: https://www.biorxiv.org/content/10.1101/354464v1.abstract
+  - text: PDF
+    url: pdfs/davidesco_etal_bioRxiv2018.pdf
 - authors: Himberger KD, Chien HYS, Honey CJ
   year: '2018'
   title: Principles of Temporal Processing Across the Cortical Hierarchy

@@ -14,6 +14,6 @@ description: Honey Lab location at Johns Hopkins University
             Baltimore, MD 21218
         </address>
 
-        <p>Our offices are in Ames Hall and Macaulay Hall on the <a href="https://www.openstreetmap.org/?mlat=39.3285&mlon=-76.6209#map=17/39.3285/-76.6209">Homewood Campus</a> of Johns Hopkins University.</p>
+        <p>Our offices are in Ames Hall and Macaulay Hall on the <a href="https://www.openstreetmap.org/?mlat=39.3285&mlon=-76.6209#map=17/39.3285/-76.6209" target="_blank" rel="noopener">Homewood Campus</a> of Johns Hopkins University.</p>
     </div>
 </section>
