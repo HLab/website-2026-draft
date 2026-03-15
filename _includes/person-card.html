@@ -12,10 +12,12 @@
         {% if include.person.focus %}
         <p class="focus"><strong>Focus:</strong> {{ include.person.focus }}</p>
         {% endif %}
-        {% if include.person.website or include.person.email %}
+        {% if include.person.website or include.person.email or include.person.neurotree %}
         <p class="links">
             {% if include.person.website %}<a href="{{ include.person.website }}">Website</a>{% endif %}
-            {% if include.person.website and include.person.email %} | {% endif %}
+            {% if include.person.website and include.person.neurotree %} | {% endif %}
+            {% if include.person.neurotree %}<a href="{{ include.person.neurotree }}">NeuroTree</a>{% endif %}
+            {% if (include.person.website or include.person.neurotree) and include.person.email %} | {% endif %}
             {% if include.person.email %}<a href="mailto:{{ include.person.email }}">Email</a>{% endif %}
         </p>
         {% endif %}

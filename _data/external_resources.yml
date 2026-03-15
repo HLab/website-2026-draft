@@ -29,6 +29,31 @@
   description: Open textbook on version control, testing, reproducibility, and AI-assisted coding for scientists.
   group: "Poldrack"
 
+# Related Labs
+- name: "Donner Lab"
+  category: labs
+  url: http://www.tobiasdonner.net/
+  description: Decision-making, neural dynamics, and perceptual inference.
+  group: "University Medical Center Hamburg-Eppendorf"
+
+- name: "Hasson Lab"
+  category: labs
+  url: https://www.hassonlab.com
+  description: Neural processes underlying natural language, narrative, and communication.
+  group: "Princeton University"
+
+- name: "Heeger Lab"
+  category: labs
+  url: http://www.cns.nyu.edu/heegerlab/
+  description: Computational models of neural processing and perception.
+  group: "New York University"
+
+- name: "Sporns Lab"
+  category: labs
+  url: https://psych.indiana.edu/directory/faculty/sporns-olaf.html
+  description: Brain network organization, connectomics, and complex systems.
+  group: "Indiana University"
+
 # Community
 - name: "CCNeuro — Conference on Cognitive Computational Neuroscience"
   category: community

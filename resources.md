@@ -118,6 +118,22 @@ description: Honey Lab resources - datasets, code, and tools from our research
         </div>
         {% endif %}
 
+        {% assign ext_labs = site.data.external_resources | where: "category", "labs" %}
+        {% if ext_labs.size > 0 %}
+        <div class="resource-group">
+            <h3>Related Labs</h3>
+            <div class="resource-list">
+                {% for item in ext_labs %}
+                <div class="resource-card resource-card-external">
+                    <h3><a href="{{ item.url }}">{{ item.name }}</a></h3>
+                    <p>{{ item.description }}</p>
+                    {% if item.group %}<span class="resource-paper">{{ item.group }}</span>{% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
         {% assign ext_community = site.data.external_resources | where: "category", "community" %}
         {% if ext_community.size > 0 %}
         <div class="resource-group">
